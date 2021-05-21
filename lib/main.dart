@@ -62,7 +62,7 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('BottomNavigationBar Sample'),
+        title: const Text('LionHeartz PUBGM'),
       ),
       body: Center(
         child: _widgetOptions.elementAt(_selectedIndex),
@@ -75,11 +75,11 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.business),
-            label: 'Business',
+            label: 'Join Us',
           ),
           BottomNavigationBarItem(
             icon: Icon(Icons.school),
-            label: 'School',
+            label: 'Member Details',
           ),
         ],
         currentIndex: _selectedIndex,
