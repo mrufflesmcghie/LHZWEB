@@ -13,7 +13,7 @@ void main() => runApp(MyApp());
 
 /// This is the main application widget.
 class MyApp extends StatelessWidget {
-  static const String _title = 'Flutter Code Sample';
+  static const String _title = 'LionHeartz PUBG Mobile Clan';
 
   @override
   Widget build(BuildContext context) {
@@ -43,7 +43,7 @@ class _MyStatefulWidgetState extends State<MyStatefulWidget> {
       style: optionStyle,
     ),
     Text(
-      'Index 1: Business',
+      'To join LionHeartz please follow the link to our discord server 🦁',
       style: optionStyle,
     ),
     Text(
